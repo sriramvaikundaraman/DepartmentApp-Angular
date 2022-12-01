@@ -1,0 +1,19 @@
+<br>
+<div class="container">
+    <div class="col-md-6">
+        <h1>Add new Department</h1><br><br>
+        <div class="form-group">
+            <form #dept = "ngForm" (ngSubmit)="onSubmit(dept.value)">
+                <input type="number" class="form-control" name="id" ngModel placeholder="Enter unique ID"><br><br>
+                <input type="text" class="form-control" name="title" ngModel placeholder="Enter department name"><br><br>
+                <input type="text" class="form-control" name="hod" ngModel placeholder="Enter HOD name"><br><br>
+                <input type="text" class="form-control" name="image" ngModel placeholder="Enter image URL"><br><br>
+                <button type="submit" class="btn btn-primary">Add department</button>
+                <button type="button" routerLink="/detail" style="margin-left: 5%;" class="btn btn-primary">Home</button>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+{
+  "department": [
+    {
+      "id": 1,
+      "title": "Computer science and Engineering",
+      "hod": "Browsing center Kumar",
+      "image": "https://www.gniotgroup.edu.in/blog/wp-content/uploads/2021/07/unnamed-1280x720.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Electronics and Communication Engineering",
+      "hod": "Electrician Gopal",
+      "image": "https://www.nssce.ac.in/assets/images/dept_ec.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Civil Engineering",
+      "hod": "Kothanaar Siva",
+      "image": "https://i.pinimg.com/originals/7f/8b/c2/7f8bc234a4d7a2eaaeffcf763c060091.jpg"
+    }
+  ]
+}

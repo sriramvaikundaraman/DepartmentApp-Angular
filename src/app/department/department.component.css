@@ -1,0 +1,10 @@
+.list-group{
+    margin-left: 7.8%;
+    max-width: fit-content;
+}
+a{
+    cursor: pointer;
+}
+a:hover {
+    background-color:  rgb(241, 241, 170);
+}

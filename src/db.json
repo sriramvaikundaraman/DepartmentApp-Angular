@@ -1,0 +1,15 @@
+{
+    "department": [
+      { "id": 1, "title": "Computer science and Engineering", "hod": "V.Sriram", "image":"https://www.sharda.ac.in/blog/wp-content/uploads/2020/03/Image-1.jpg" },
+      { "id": 2, "title": "Information Technology", "hod": "J. Nanthiniannal", "image" : "https://agreemtech.com/wp-content/uploads/2021/05/information-technology.jpg" },
+      { "id": 3, "title": "Data science and Machine learning", "hod": "P. Kumar", "image":"https://i.ibb.co/Pj9YT8w/ml-ds-algos.jpg" },
+      { "id": 4, "title": "Computer science and business systems", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" },
+      { "id": 5, "title": "Mechanical Engineering", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" },
+      { "id": 6, "title": "Civil Engineering", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" },
+      { "id": 7, "title": "Electrical and Electronics Engineering", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" },
+      { "id": 8, "title": "Electronics and Communication Engineering", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" },
+      { "id": 9, "title": "Aeronautical Engineering", "hod": "V.Sriram", "image":"http://francisxavier.ac.in/cs-content/uploads/slides/Department%20of.png" }
+
+    ]
+
+}
