@@ -1,9 +1,9 @@
 <div class="container" >
     <div class="row">
         <div class="col-md-12 bg-light text-right" *ngIf = "dept">
-            <h1>{{dept.hod}} </h1>
-            <h2>welcomes you to {{dept.title}}</h2>
-            <img [src]="dept.image" width="700" height="400" alt="alternatetext">
+            <h1>{{dept[0].hod}} </h1>
+            <h2>welcomes you to {{dept[0].title}}</h2>
+            <img [src]="dept[0].image" width="700" height="400" alt="alternatetext">
             
         </div>
     </div>

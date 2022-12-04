@@ -16,6 +16,7 @@ export class DepartmentService {
   }
 
   getDeptById(id:Number):Observable<any> {
-    return this.http.get(`${this.url}/api/all/${id}`).pipe(map(res=> res));
+    //let filteredArr = res.filter(data => data.id < 100);
+    return this.http.get(`${this.url}/api/all`).pipe(map(res=> res));
   }
 }
