@@ -9,6 +9,10 @@ import { DepartmentComponent } from './department/department.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AddDepartmentComponent } from './add-department/add-department.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { SocialLoginModule } from 'angularx-social-login';
+import { GoogleLoginProvider } from 'angularx-social-login/public-api';
 
 
 @NgModule({
@@ -17,15 +21,18 @@ import { FormsModule } from '@angular/forms';
     DepartmentDetailComponent,
     DepartmentComponent,
     NotFoundComponent,
-    AddDepartmentComponent
+    AddDepartmentComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    SocialLoginModule  ],
+  providers: [
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

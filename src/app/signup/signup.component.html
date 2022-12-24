@@ -1,0 +1,27 @@
+<br>
+<div class="container">
+    <div class="row">
+
+    <div class="col-md-5">
+        <h1>Create a new account</h1><br><br>
+        <div class="form-group">
+            <form #dept = "ngForm" (ngSubmit)="onSubmit(dept.value)">
+                <input type="number" class="form-control" name="id" ngModel placeholder="Enter Email ID"><br><br>
+                <input type="text" class="form-control" name="title" ngModel placeholder="Enter your name"><br><br>
+                <input type="password" class="form-control" name="hod" ngModel placeholder="Enter password"><br><br>
+
+                <button type="submit" class="btn btn-primary">Add department</button>
+                <button type="button" routerLink="/detail" style="margin-left: 5%;" class="btn btn-primary">Back</button>
+
+
+            </form>
+        </div>
+    </div>
+    <div class="col-md-4" id = "google">               
+        <button type="button" routerLink="/dummy"   class="btn btn-primary">Signup with Google</button> 
+        <div class="g-signin2" data-onsuccess="onSignIn"></div> 
+    </div>
+
+
+    </div>
+    </div>

@@ -5,3 +5,15 @@ img {
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  .btn-primary{
+    background-color: white;
+    border-color: purple ;
+    color: purple;
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: purple;
+    border-color: purple; /*set the color you want here*/
+}
